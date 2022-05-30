@@ -8,8 +8,10 @@
     align-items: center;
 }
 .card-content {
-    margin-left: 30px;
+    margin: 0 30px;
     width: 350px;
+
+
 }
 .card-content-img {
 width: 70px;
@@ -30,13 +32,14 @@ align-items: center;
 
 .title-card {
     width: 189px;
-    margin: 30px auto 16px;
+    margin: 30px auto 16px ;
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
-    
+    text-align: center;
     color: #333333;
+    /* background-color: grey; */
 
 }
 
