@@ -1,0 +1,40 @@
+.main {
+}
+
+.main-title {
+width: 409px;
+margin: auto;
+
+font-family: 'Raleway';
+
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+
+color: #212121;
+/* text-align: center; */
+margin-bottom: 34px;
+margin-top: 80px;
+}
+.main-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  /* background-color: coral; */
+ /* text-align: center; */
+ width: 363px;
+ margin: auto;
+ 
+    color: #86878B;
+
+}
+
+.line {
+    width: 64px;
+    height: 2px;
+    background-color:#E72424 ;
+    margin: auto;
+    margin-bottom: 34px;
+}

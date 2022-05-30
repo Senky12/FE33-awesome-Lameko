@@ -1,5 +1,5 @@
 @import url("../css/cdn.css");
-@import url("../css/head.css");
+@import url("../css/card.css");
 @import url("../css/main.css");
 
 *{
@@ -19,3 +19,7 @@ html{
     padding: 0 15px;
     margin: auto;
 }    
+
+.section {
+    padding: 80px 0;
+}
