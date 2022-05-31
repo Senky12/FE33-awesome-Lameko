@@ -1,0 +1,19 @@
+.flex-block {
+    max-width: 1000px;
+    height: 350px;
+    border: 1px solid   #c5c5c5;
+    margin: auto;
+
+    background-color: blue;
+
+
+}
+
+.flex-item {
+    padding: 20px ;
+    width: 150px ;
+    height: 80px;
+    background-color: coral;
+    color: white;
+    border: 1px solid white;
+}
