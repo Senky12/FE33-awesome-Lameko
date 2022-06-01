@@ -1,4 +1,10 @@
-.bg-section
+
+.main-pricing {
+    background-color: #F5F5F5;
+}
+
+
+/* .bg-section
 /* { */
     /* background-image: url('../img/naruto.jpeg');
     background-repeat: no-repeat;
@@ -7,25 +13,25 @@
     background-size: cover;
 } */
 
-.bg-block {
+/* .bg-block { */
 /* background-color: coral; */
-margin: auto;
-max-width: 1000px;
-height: 350px;
-border: 1px solid #c5c5c5;
+/* margin: auto; */
+/* max-width: 1000px; */
+/* height: 350px; */
+/* border: 1px solid #c5c5c5; */
 
 /* background-image: url("../img/ban.svg") , url('../img/naruto.jpeg')  ; */
 
-background-repeat: no-repeat;
+/* background-repeat: no-repeat; */
 
-background-position: top left, center;
+/* background-position: top left, center; */
 
 /* background-size: contain;  */
 /* растягивает по короткой стороне у нас это высота 800; */
 
-background-size: 150px , cover; 
+/* background-size: 150px , cover;  */
 /* заполняет родительский элемент в пропорциональных масштабах */
-}
+/* } */
 
 
 

@@ -1,6 +1,7 @@
 @import url("../css/cdn.css");
 @import url("../css/bg.css");
 @import url("../css/flex.css");
+@import url("../css/main.css");
 
 
 *{
@@ -21,7 +22,7 @@ html{
         padding: 0 15px;
         margin: auto;
     
-        background-color: aqua;
+        /* background-color: aqua; */
     }   
 
     section{
