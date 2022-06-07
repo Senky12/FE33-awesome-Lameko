@@ -20,11 +20,12 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
-display: flex;
+/* display: flex; */
 align-items: center;
 text-align: center;
 color: #86878B;
 margin-bottom: 22px;
+position: relative;
 }
 
 .card-content {
@@ -46,6 +47,7 @@ justify-content: center;
 .card-content-txt {
 display: flex;
 flex-direction: column;
+justify-content: space-around;
 
 }
 
@@ -76,10 +78,13 @@ flex-direction: column;
 
 .card-text::after {
 content: "";
-display: inline-block;
+/* display: block; */
 width: 0;
 height: 0;
-border-top: 40px solid transparent;
-border-right: 80px solid lightblue;
-border-bottom: 40px solid transparent;
+border-top: 15px solid #E2E2E2;
+border-right: 15px solid transparent;
+border-left: 15px solid transparent;
+position: absolute;
+top: 100%;
+left: 40px;
 }
