@@ -1,0 +1,102 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+
+
+.container {
+    width: 1170px;
+    margin: auto;
+    padding: 30px;
+}
+
+
+audio {
+    display: block;
+    /* width: 10px; */
+    margin: 20px auto 10px;
+}
+
+.shadowbox{
+widows: 300px;
+height: 200px;
+/* border: 1px solid #c5c5c5; */
+margin: auto;
+border-radius: 30px;
+box-shadow: -20px 10px 12px 2px rgba(255, 127, 80, 0.3);
+box-shadow: inset 20px 10px 15px 2px rgba(0, 0, 255, 0.3);
+}
+
+.fa-facebook {
+    font-size: 36px;
+    color: red;
+    transition-duration: 0.2s;
+
+}
+
+.fa-facebook:hover {
+    color: blue;
+    transition-duration: 0.2s;
+    }
+
+.svg .container span::before {
+content: "\f095";
+font-family: 'Font Awesome 6 Free';
+font-size: 24px;
+font-weight: 600;
+margin-right: 7px;
+}
+
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+    color: #FFF;
+    padding: 20px;
+    margin: 0 auto 20px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+.translateblock:hover {
+    transform: translate(20px, 20px);
+    /* как позиционирование ковер, сдвигается сохраняя за собой место */
+}
+
+.transabs {
+    position: relative;
+}
+
+.transabs::after {
+content: "";
+width: 150px;
+height: 150px;
+background-color: #fff;
+display: block;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% , -50%);
+}
+
+.scaleblock:hover {
+    transform: scale(1.02);
+    /* Масшатабирует */
+}
+
+.skew:hover {
+transform: skew(20deg, 30deg);
+/* Искажает грубо говоря под углом */
+}
+
+.rotateblock:hover {
+    transform: rotate(360deg);
+    /* Двигает вокруг оси */
+}
+
+.originblock {
+ transform-origin: bottom right; /**Работает только вместе вот ниже с ротейтом, и двигает не вокруг оси а вокруг точки что вот мы задали низ право */
+}
+.originblock:hover {
+transform: rotate(45deg);
+}
+
