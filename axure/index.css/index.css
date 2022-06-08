@@ -1,0 +1,29 @@
+@import url("../index.css/cdn.css");
+@import url("../index.css/title.css");
+@import url("../index.css/bg.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+section {
+    padding-bottom: 38px;
+    position: relative;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    /* background-color: aqua; */
+}
+
+html {
+    font-family: 'Open Sans', 'Raleway' sans-serif;
+}
