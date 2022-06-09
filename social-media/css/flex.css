@@ -59,7 +59,7 @@ color: #86878B;
 }
 
 .facebook:hover {
-    transform: scale(1.5);
+    transform: scale(1.5) rotate(360deg);
     color: rgb(125, 125, 187);
     box-shadow: 0px 0px 20px 2px rgb(172, 172, 230), inset 0px 0px 20px 2px rgb(172, 172, 230);
     transition-duration: 0.4s;
@@ -105,7 +105,7 @@ border-radius: 45%;
 }
 
 .victo:hover {
-    transform: scale(1.6);
+    transform: scale(1.6) rotate(720deg);
     color: rgba(226, 150, 51, 0.65);
 }
 
