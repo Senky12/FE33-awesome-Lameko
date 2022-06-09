@@ -21,10 +21,8 @@ html{
         max-width: 1170px;
         padding: 0 15px;
         margin: auto;
-    
-        /* background-color: aqua; */
-    }   
+        }   
 
-    section{
-        padding: 20px 0;
+    .pricing{
+        padding: 80px 0 59px 0;
     }
