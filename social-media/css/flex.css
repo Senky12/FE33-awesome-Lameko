@@ -1,20 +1,24 @@
 .flex-wrap-main {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-
+    margin: 0 -15px;
 }
 
 .flex-wrap-icons {
     display: flex;
+    flex-wrap: wrap;
     width: 684px;
     align-items: center;
     justify-content: space-between;
+    margin: 0 15px;
     
 }
 
 .contant-text {
     width: 365px;
+    margin: 0 15px;
 }
 
 .title-social {
@@ -28,7 +32,7 @@ line-height: 27px;
 color: #333333;
 /* text-align: left; */
 /* display: flex; */
-padding-bottom: 14px;
+margin-bottom: 14px;
 
 }
 
@@ -43,14 +47,11 @@ color: #86878B;
 
 }
 
-/* .contant-icons {
-    width: 684px;
-    align-items: center;
-} */
+
 
 
 .icon-shrift{
     font-size: 40px;
-    color: #86878B;
+    color: rgba(134, 135, 139, 0.55);
     /* font-weight: 200px; */
 }
