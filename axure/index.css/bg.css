@@ -1,5 +1,10 @@
 .axure {
     background-image: url("../img/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+   
   
 }
 
@@ -9,6 +14,7 @@
     height: 100%;
     display: block;
     background-color: rgba(0, 0, 0, 0.55);
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     left: 0;
