@@ -14,7 +14,7 @@
     width: 350px;
 }
 
-.card-content-img {
+.card-content-icon {
 width: 70px;
 height: 70px;
 border: 1px solid #E72424;
@@ -24,12 +24,39 @@ margin: 0 auto;
 display: flex;
 justify-content: center;
 align-items: center;
+transition-duration: 0.3s;
 }
 
-/* .card-content-img img{ */
-   
-    
+.iconhrift{
+    font-size: 30px;
+}
 
+.lamp:hover {
+    transform: scale(1.6);
+    transition-duration: 0.3s;
+    color: #fff;
+    background-color: rgba(138, 43, 226, 0.75);
+    border: none;
+    box-shadow: 0 0 20px 2px rgba(120, 221, 150, 0.75); 
+}
+
+.keybord:hover {
+    transform: translate(0, -25px);
+    transition-duration: 0.3s;
+    color: rgba(15, 15, 15, 0.75);
+    background-color: rgba(120, 221, 150, 0.75);
+    border: none;
+    box-shadow: 0 0 20px 2px rgba(138, 43, 226, 0.75) ;
+}
+
+.light:hover {
+    transition-duration: 0.3s;
+    color: rgba(231, 231, 100, 0.75);
+    transform: rotate(360deg) scale(1.7);
+    background-color: #fff;
+    box-shadow: 0 0 20px 2px rgba(120, 221, 150, 0.75);
+    border: none;
+}
 
 .title-card {
     width: 189px;
