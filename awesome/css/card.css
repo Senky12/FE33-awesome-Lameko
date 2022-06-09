@@ -1,18 +1,19 @@
-.card {
+/* .card {
     margin-top: 68px;
-}
+} */
 
 .card-wrap {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
 }
 .card-content {
-    margin: 0 30px;
+    margin: 0 15px;
     width: 350px;
-
-
 }
+
 .card-content-img {
 width: 70px;
 height: 70px;
