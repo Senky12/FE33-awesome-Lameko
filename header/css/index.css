@@ -1,0 +1,27 @@
+@import url("../css/cdn.css");
+@import url("../css/flex.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+html{
+    font-family: 'Open Sans', 'Raleway' sans-serif;
+    }
+
+ .header {
+     background-color: #000000; 
+     position: sticky; 
+     padding: 20px 0;    
+}   
