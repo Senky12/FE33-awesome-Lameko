@@ -1,0 +1,86 @@
+
+.flex-item {
+    display: flex;
+    justify-content: space-around;
+    width: 320px;
+    margin: auto;
+    flex-wrap: wrap;
+    line-height: 25px ;
+    font-size: 16px;
+    
+}
+
+.item-shrift {
+    margin: 0 15px;
+    color: azure;
+    cursor: pointer;
+    transition-duration: 0.3;
+}
+
+.facebook-footer:hover {
+    transform: scale(1.3);
+    box-shadow: inset 0px 0px 20px 2px rgba(205, 240, 108, 0.65) ;
+border-radius: 50%;
+transition-duration: 0.3;
+}
+
+.twitter-footer:hover {
+    transform: translate(0, -40%);
+    color: rgba(137, 223, 235, 0.55);
+    transition-duration: 0.4s;
+}
+
+.google-footer:hover {
+    transform: skew(20deg, 20deg);
+    color: rgba(245, 58, 58, 0.7);
+    transition-duration: 0.4s;
+    box-shadow: 0px 0px 20px 2px rgba(214, 56, 69, 0.65);
+    border-radius: 50%;
+}
+
+.insta-footer:hover {
+    /* transform: scale(1.5); */
+    transition-duration: 0.4s;
+    color: rgba(58, 130, 212, 0.65);
+    transform: rotate(170deg);
+}
+
+.wifi-footer {
+    transform-origin: bottom;
+}
+.wifi-footer:hover {
+transform: rotate(-45deg);
+transition-duration: 0.4s;
+color: rgba(136, 248, 224, 0.95);
+box-shadow: inset 0px 0px 15px 2px rgba(58, 130, 212, 0.65) ;
+border-radius: 50%;
+}
+
+.react-footer:hover {
+    transform: rotate(360deg);
+    transition-duration: 0.4s;
+    color: rgb(129, 238, 238);
+}
+
+.victo-footer:hover {
+    transform: scale(1.6) rotate(720deg);
+    color: rgba(226, 150, 51, 0.65);
+}
+
+
+.text-header {
+    
+color: aliceblue;
+margin-top: 20px;
+text-align: center;    
+align-items: center;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+
+color: rgba(255, 255, 255, 0.5);
+}
+
